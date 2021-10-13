@@ -1,0 +1,44 @@
+Node.js:
+* failu sistema;
+* fs + api (postman, imsomnia);
+* serveris (back);
+* authentification (sessions);
+* mysql;
+
+pilnavertis WEB psl: 
+    * front (html, css, js, img, fonts);
+    * back (route, authentification, db (failu sistema, mysql));
+    * api;
+    // pvz., android (local / external); //
+
+Failu sistemos CRUD:
+C - create (sukurti)
+R - read (perksaityti)
+U - update (atnaujinti)
+D - delete (istrinti)
+
+
+
+index.js faile buvo info:
+console.log(data); // ivykdyta failo sukurimo funkcija.
+data.create('cipolinas'); //'cipolinas - failo pavadinimas'
+
+data.create('users', 'petras', {name: 'Petras', age: 99});
+data.read('users', 'petras');
+data.update();
+data.delete();
+
+data.create('books', 'du-gaideliai', {text: 'asd'});
+data.read('books', 'du-gaideliai');
+
+
+
+data.js faile buvo info:
+
+/**
+ * Darbiniu funkciju su failu sistema objektas
+ */
+
+ 
+
+
